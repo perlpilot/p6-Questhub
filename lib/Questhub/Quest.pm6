@@ -7,6 +7,7 @@ class Questhub::Quest {
     has Questhub::Quest::State $.status = !!! 'status required';
     has Str @.owners = !!! 'owners required';
     has Str @.tags;
+    has Str @.likes;
 
     method Str() {
         return join "\n", map { my $n = $_.name.substr(2); "$n: " ~ self."$n"() }, self.^attributes;
