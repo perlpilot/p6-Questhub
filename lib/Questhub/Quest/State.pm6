@@ -1,1 +1,2 @@
-our enum Questhub::Quest::State is export <open abandoned closed>;
+
+our subset Questhub::Quest::State of Str is export where { $_ eq any(<open abandoned closed>) };
