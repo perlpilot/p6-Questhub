@@ -2,10 +2,9 @@
 
 use v6;
 use Questhub;
-use Questhub::Quest::State;
 use Term::ANSIColor;
 
-sub MAIN('list', :$owner?, Questhub::Quest::State :$status?, :$tags?) {
+sub MAIN('list', :$owner?, :$status?, :$tags?) {
     my $qh = Questhub.new;
     my @quests = $qh.get_quests(:user($owner), :$status);
     for @quests -> $q {
