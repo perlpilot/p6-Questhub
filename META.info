@@ -1,0 +1,8 @@
+{
+    "name" : "Questhub",
+    "version"  : "0.0.1",
+    "description" : "API to http://questhub.io",
+    "author" : "Jonathan Scott Duff <duff@pobox.com>",
+    "depends" : [],
+    "source-url" : git@github.com:perlpilot/p6-Questhub.git
+}
