@@ -1,4 +1,5 @@
 {
+    "perl" : "6.*",
     "name" : "Questhub",
     "version"  : "0.0.1",
     "description" : "Implementation of http://questhub.io API + CLI",
