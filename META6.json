@@ -10,7 +10,7 @@
         "Questhub::Quest::State" : "lib/Questhub/Quest/State.pm6"
     },
     "authors" : [ "Jonathan Scott Duff <duff@pobox.com>" ],
-    "depends" : [ "JSON::Tiny", "HTTP::UserAgent", "Term::ANSIColor", "IO::Socket::SSL" ],
+    "depends" : [ "JSON::Tiny", "HTTP::UserAgent", "Terminal::ANSIColor", "IO::Socket::SSL" ],
     "support" : {
         "email": "duff@pobox.com",
         "source": "https://github.com/perlpilot/p6-Questhub.git",
